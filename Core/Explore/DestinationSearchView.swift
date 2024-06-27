@@ -144,7 +144,7 @@ struct DestinationSearchView: View {
     /// .constant( ) 是一个返回binding值的设置
     DestinationSearchView(show: .constant(false))
 }
-/// 将重复的modifier 设置成单独的 struct ,使结构清晰明了
+/// 将重复的modifier 设置成单独的 struct ,使结构清晰
 struct CollapsedpickerModifierView : ViewModifier {
     func body(content: Content) -> some View {
         content
