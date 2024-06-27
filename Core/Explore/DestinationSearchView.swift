@@ -131,7 +131,7 @@ struct DestinationSearchView: View {
                 }
             }
             .modifier(CollapsedpickerModifierView())
-            .frame(height: selectedOption == .guests ? 120 : 65)
+            .frame(height: selectedOption == .guests ? 120 : 64)
             .onTapGesture {
                 withAnimation(.snappy){selectedOption = .guests}
             }
